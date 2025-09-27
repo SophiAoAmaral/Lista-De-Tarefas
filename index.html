@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <script src="js/script.js" defer></script>
+
     <link rel="stylesheet" href="css/style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 
@@ -15,19 +17,11 @@
 
     <header>
         <input type="text" placeholder="Digite a sua tarefa" id="input-tarefas">
-        <button class="add">Adicionar</button>
+        <button class="add" id="btnAdd" onclick="addTarefa()">Adicionar</button>
     </header>
 
     <main id="area-lista">
-        <div class="item">
-            <div class="item-icone">
-                <span class="material-symbols-outlined">
-                    circle
-                </span>
-            </div>
-            <div class="item-nome"></div>
-            <div class="item-botao"></div>
-        </div>
+    
     </main>
 </body>
 
